@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenadores Pokémon</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="/pkm.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="content-poke" id="content"></div>
+
+    <script>
+        $(document).ready(function () {
+            var url = 'http://localhost/data.json';
+            $.getJSON(url, function (data) {
+                var content = $('#content');
+                $.each(data, function (index, trainer) {
+                    var trainerDiv = $('<div class="trainer"></div>');
+                    trainerDiv.append('<div class="trainer-name"><p>' + trainer.entrenador + '</p></div>');
+                    var pokemonContainer = $('<div class="trainer-pokemons"></div>');
+                    $.each(trainer.pokemons, function (index, pokemon) {
+                        var pokemonDiv = $('<div class="pokemon"></div>');
+                        pokemonDiv.addClass(pokemon.tipo);
+                        pokemonDiv.append('<img src="' + pokemon.foto + '" alt="' + pokemon.nombre + '">');
+                        pokemonDiv.append('<div>' + pokemon.nombre + ' (' + pokemon.tipo + ')</div>');
+                        pokemonContainer.append(pokemonDiv);
+                    });
+                    trainerDiv.append(pokemonContainer);
+                    content.append(trainerDiv);
+                    
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+[
+  {
+    "entrenador": "Gary Owh",
+    "pokemons": [
+      {
+        "nombre": "venusaur",
+        "tipo": "grass",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+      },
+      {
+        "nombre": "eevee",
+        "tipo": "normal",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+      },
+      {
+        "nombre": "arcanine",
+        "tipo": "fire",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+      },
+      {
+        "nombre": "umbreon",
+        "tipo": "dark",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+      }
+    ]
+  },
+  {
+    "entrenador": "Ash Quetchu",
+    "pokemons": [
+      {
+        "nombre": "charizard",
+        "tipo": "fire",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+      },
+      {
+        "nombre": "pikachu",
+        "tipo": "electric",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+      },
+      {
+        "nombre": "bulbasaur",
+        "tipo": "grass",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+      },
+      {
+        "nombre": "squirtle",
+        "tipo": "water",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+      }
+    ]
+  },
+  {
+    "entrenador": "Brock",
+    "pokemons": [
+      {
+        "nombre": "onix",
+        "tipo": "rock",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
+      },
+      {
+        "nombre": "geodude",
+        "tipo": "rock",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+      },
+      {
+        "nombre": "crobat",
+        "tipo": "poison",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
+      },
+      {
+        "nombre": "steelix",
+        "tipo": "steel",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
+      }
+    ]
+  },
+  {
+    "entrenador": "Misty",
+    "pokemons": [
+      {
+        "nombre": "starmie",
+        "tipo": "water",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+      },
+      {
+        "nombre": "psyduck",
+        "tipo": "water",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+      },
+      {
+        "nombre": "gyarados",
+        "tipo": "water",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+      },
+      {
+        "nombre": "togepi",
+        "tipo": "fairy",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png"
+      }
+    ]
+  },
+  {
+    "entrenador": "Jessie",
+    "pokemons": [
+      {
+        "nombre": "arbok",
+        "tipo": "poison",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+      },
+      {
+        "nombre": "lickitung",
+        "tipo": "normal",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
+      },
+      {
+        "nombre": "wobbuffet",
+        "tipo": "psychic",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png"
+      },
+      {
+        "nombre": "seviper",
+        "tipo": "poison",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png"
+      }
+    ]
+  },
+  {
+    "entrenador": "James",
+    "pokemons": [
+      {
+        "nombre": "koffing",
+        "tipo": "poison",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
+      },
+      {
+        "nombre": "weezing",
+        "tipo": "poison",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
+      },
+      {
+        "nombre": "victreebel",
+        "tipo": "grass",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+      },
+      {
+        "nombre": "carnivine",
+        "tipo": "grass",
+        "foto": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png"
+      }
+    ]
+  }
+]
